@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+   size_t a;
+   size_t b;
+   int i;
+   for (i = 0; i < 30; i++) {
+      a = rand();
+      b = a % 127;
+      if (b == 9 || b == 10 || (b >= 32 && b <= 126 )) {
+         putchar(b);
+      }
+   }  
+   return 0;
+}
