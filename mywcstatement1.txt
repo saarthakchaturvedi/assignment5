@@ -1,0 +1,4 @@
+This is a normal text file
+It contains normal characters and words
+and new line characters as well as spaces
+All good no sweat
