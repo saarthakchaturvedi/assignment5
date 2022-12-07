@@ -11,6 +11,7 @@ int main(void) {
       if (b == 9 || b == 10 || (b >= 32 && b <= 126 )) {
          putchar(b);
       }
+      else i--;
    }  
    return 0;
 }
